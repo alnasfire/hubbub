@@ -356,3 +356,51 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:601)
 	at com.intellij.rt.execution.CommandLineWrapper.main(CommandLineWrapper.java:108)
+01-10 18:29:35 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101004800480000ffdb0043000403030403030404030405040405060a07060606060d090a080a0f0d10100f0d0f0e11131814... (45567)"; SQL statement:
+update profile set version=?, bio=?, country=?, email=?, full_name=?, homepage=?, jabbed_address=?, photo=?, timezone=? where id=? and version=? [22001-164]
+01-10 18:30:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101004800480000fffe003c43524541544f523a2067642d6a7065672076312e3020287573696e6720494a47204a5045472076... (32830)"; SQL statement:
+update profile set version=?, bio=?, country=?, email=?, full_name=?, homepage=?, jabbed_address=?, photo=?, timezone=? where id=? and version=? [22001-164]
+01-10 18:31:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101004800480000fffe003c43524541544f523a2067642d6a7065672076312e3020287573696e6720494a47204a5045472076... (32830)"; SQL statement:
+update profile set version=?, bio=?, country=?, email=?, full_name=?, homepage=?, jabbed_address=?, photo=?, timezone=? where id=? and version=? [22001-164]
+01-10 18:33:58 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101004800480000fffe003c43524541544f523a2067642d6a7065672076312e3020287573696e6720494a47204a5045472076... (32830)"; SQL statement:
+update profile set version=?, bio=?, country=?, email=?, full_name=?, homepage=?, jabbed_address=?, photo=?, timezone=? where id=? and version=? [22001-164]
+01-10 18:36:19 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101004800480000fffe003c43524541544f523a2067642d6a7065672076312e3020287573696e6720494a47204a5045472076... (32830)"; SQL statement:
+update profile set version=?, bio=?, country=?, email=?, full_name=?, homepage=?, jabbed_address=?, photo=?, timezone=? where id=? and version=? [22001-164]
+01-10 19:05:48 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101004800480000ffdb0043000403030403030404030405040405060a07060606060d090a080a0f0d10100f0d0f0e11131814... (38588)"; SQL statement:
+insert into profile (id, version, bio, country, email, full_name, homepage, jabbed_address, photo, timezone) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?) [22001-164]
+01-10 19:06:11 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101004800480000ffdb0043000403030403030404030405040405060a07060606060d090a080a0f0d10100f0d0f0e11131814... (38588)"; SQL statement:
+insert into profile (id, version, bio, country, email, full_name, homepage, jabbed_address, photo, timezone) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?) [22001-164]
+01-10 19:07:02 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101004800480000ffdb0043000403030403030404030405040405060a07060606060d090a080a0f0d10100f0d0f0e11131814... (38588)"; SQL statement:
+insert into profile (id, version, bio, country, email, full_name, homepage, jabbed_address, photo, timezone) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?) [22001-164]
+01-10 19:07:39 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101004800480000ffdb0043000403030403030404030405040405060a07060606060d090a080a0f0d10100f0d0f0e11131814... (20479)"; SQL statement:
+insert into profile (id, version, bio, country, email, full_name, homepage, jabbed_address, photo, timezone) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?) [22001-164]
+01-10 19:07:53 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101004800480000ffdb0043000403030403030404030405040405060a07060606060d090a080a0f0d10100f0d0f0e11131814... (20479)"; SQL statement:
+insert into profile (id, version, bio, country, email, full_name, homepage, jabbed_address, photo, timezone) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?) [22001-164]
+01-10 19:12:03 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101004800480000ffdb0043000403030403030404030405040405060a07060606060d090a080a0f0d10100f0d0f0e11131814... (38588)"; SQL statement:
+insert into profile (id, version, bio, country, email, full_name, homepage, jabbed_address, photo, timezone) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?) [22001-164]
+01-10 19:12:26 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101004800480000ffdb0043000403030403030404030405040405060a07060606060d090a080a0f0d10100f0d0f0e11131814... (38588)"; SQL statement:
+insert into profile (id, version, bio, country, email, full_name, homepage, jabbed_address, photo, timezone) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?) [22001-164]
+01-10 19:36:37 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101012c012c0000ffdb00430006040506050406060506070706080a100a0a09090a140e0f0c1017141818171416161a1d251f... (18453)"; SQL statement:
+update profile set version=?, bio=?, country=?, email=?, full_name=?, homepage=?, jabbed_address=?, photo=?, timezone=? where id=? and version=? [22001-164]
+01-10 19:39:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101012c012c0000ffdb00430006040506050406060506070706080a100a0a09090a140e0f0c1017141818171416161a1d251f... (18453)"; SQL statement:
+update profile set version=?, bio=?, country=?, email=?, full_name=?, homepage=?, jabbed_address=?, photo=?, timezone=? where id=? and version=? [22001-164]
+01-10 19:39:26 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101012c012c0000ffdb00430006040506050406060506070706080a100a0a09090a140e0f0c1017141818171416161a1d251f... (18453)"; SQL statement:
+update profile set version=?, bio=?, country=?, email=?, full_name=?, homepage=?, jabbed_address=?, photo=?, timezone=? where id=? and version=? [22001-164]
+01-11 12:33:40 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHOTO BINARY(255)": "X'ffd8ffe000104a46494600010101012c012c0000ffdb00430006040506050406060506070706080a100a0a09090a140e0f0c1017141818171416161a1d251f... (18453)"; SQL statement:
+update profile set version=?, bio=?, country=?, email=?, full_name=?, homepage=?, jabbed_address=?, photo=?, timezone=? where id=? and version=? [22001-164]

@@ -19,7 +19,7 @@ class Profile {
         bio(nullable: true, maxSize: 1000)
         homepage(url: true, nullable: true)
         email(email: true, nullable: true)
-        photo(nullable: true)
+        photo(nullable: true, maxSize: 32768)
         country(nullable: true)
         timezone(nullable: true)
         jabbedAddress(email: true, nullable: true)
